@@ -1,4 +1,4 @@
-from rest_framework import generics
+from rest_framework import generics , permissions
 from . import serializers
 from Clients import models
 
@@ -6,6 +6,7 @@ from Clients import models
 class SchoolList(generics.ListAPIView):
     queryset = models.School.objects.all()
     serializer_class = serializers.SchoolSerilaizer
+	#permission_classes = permissions.
 
 
 class LocationList(generics.ListAPIView):
