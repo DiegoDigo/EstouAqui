@@ -1,11 +1,12 @@
 from __future__ import unicode_literals
 from django.db import models
-from Clients.models import Location
+from Clients.models import Location, Parents
 
 
 class Vehicle(models.Model):
     vehicleType = models.CharField(max_length=100)
     capacity = models.PositiveIntegerField(default=50)
+    parents = models.ManyToManyField(Parents, related_name="parents", verbose_name=u'Pais')
 
     class Meta:
         ordering = ['vehicleType']
