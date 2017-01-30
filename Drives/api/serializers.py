@@ -15,7 +15,6 @@ class DriverSerializer(serializers.ModelSerializer):
     vehicle = VehicleSerializer(read_only=True, many=True)
     location = LocationSerilaizer(read_only=True)
 
-
     class Meta:
         model = models.Driver
         fields = '__all__'

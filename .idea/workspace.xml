@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="841b5484-9de8-4ceb-93b3-1e9c27a5a3aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clients/api/views.py" afterPath="$PROJECT_DIR$/Clients/api/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drives/api/serializers.py" afterPath="$PROJECT_DIR$/Drives/api/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drives/models.py" afterPath="$PROJECT_DIR$/Drives/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drives/tests.py" afterPath="$PROJECT_DIR$/Drives/tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,8 +80,8 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Drives/api/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -114,6 +111,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Diego &lt;di3g0d0ming05@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -530,6 +533,14 @@
       <option name="presentableId" value="Default" />
       <updated>1485519781467</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ajuste nao json">
+      <created>1485800856026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485800856026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,6 +572,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajuste nao json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste nao json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,7 +677,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Drives/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
